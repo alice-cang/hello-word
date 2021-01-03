@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <el-button type="text">文字按钮</el-button>
+    <el-button type="text" disabled>文字按钮</el-button>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
